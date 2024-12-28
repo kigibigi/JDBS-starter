@@ -32,14 +32,21 @@
             <artifactId>maven-help-plugin</artifactId>
             <version>3.5.1</version>
         </dependency>
+
+        <!--        зависимости для hibernate           -->
+        <dependency>
+            <groupId>org.hibernate.javax.persistence</groupId>
+            <artifactId>hibernate-jpa-2.1-api</artifactId>
+            <version>1.0.2.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.6.3.Final</version>
+        </dependency>
     </dependencies>
 
-<!--    <distributionManagement>-->
-<!--        <repository>-->
-<!--            <id>JDBS-starter</id>-->
-<!--            <url>https://github.com/kigibigi/JDBS-starter</url>-->
-<!--        </repository>-->
-<!--    </distributionManagement>-->
     <build>
         <plugins>
             <plugin>
